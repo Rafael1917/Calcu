@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.clear:
                     label.setText("");
                     break;
+                    //Investigar como implementar estas funciones
                 case R.id.mac:
                     label.setText("");
                     break;
@@ -134,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.bandams:
                     label.setText("");
                     break;
+                    //Hasta Aqui
                 case R.id.borr:
                     label.setText("");
                     break;
