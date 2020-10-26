@@ -22,16 +22,18 @@
                 android:layout_gravity="center"
                 android:textSize="30dp"
                 android:id="@+id/pantalla"
+                android:textColor="#000000"
                 android:background="#FFFFFF">
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="vertical"
             android:layout_weight="6"
             android:background="#656161">
-
+//Fila Uno
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -43,7 +45,7 @@
                     android:layout_height="match_parent"
                     android:text="MC"
                     android:textColor="#FFFFFF"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:id="@+id/mac"
                     android:layout_weight="1"
                     android:textSize="20dp"></Button>
@@ -52,7 +54,7 @@
                     android:layout_height="match_parent"
                     android:text="MR"
                     android:textColor="#FFFFFF"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:id="@+id/mister"
                     android:layout_weight="1"
                     android:textSize="20dp"></Button>
@@ -62,7 +64,7 @@
                     android:layout_height="match_parent"
                     android:text="M+"
                     android:textColor="#FFFFFF"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:id="@+id/mmas"
                     android:layout_weight="1"
                     android:textSize="20dp"></Button>
@@ -71,7 +73,7 @@
                     android:layout_height="match_parent"
                     android:text="M-"
                     android:textColor="#FFFFFF"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:id="@+id/mmenos"
                     android:layout_weight="1"
                     android:textSize="20dp"></Button>
@@ -81,12 +83,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="MS"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
             </LinearLayout>
-
+//Fila dos
             <LinearLayout
                 android:layout_width="426dp"
                 android:layout_height="match_parent"
@@ -99,17 +101,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="CE"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
 
                 <Button
-                    android:id="@+id/c"
+                    android:id="@+id/clear"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="C"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -119,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:gravity="center"
                     android:text="←"
                     android:textColor="#FFFFFF"
@@ -130,13 +132,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="/"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
 
             </LinearLayout>
-
+//Fila tres
             <LinearLayout
                 android:layout_width="426dp"
                 android:layout_height="match_parent"
@@ -179,13 +181,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="*"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
 
             </LinearLayout>
-
+//Fila cuatro
             <LinearLayout
                 android:layout_width="426dp"
                 android:layout_height="match_parent"
@@ -228,13 +230,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="-"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
 
             </LinearLayout>
-
+//Fila cinco
             <LinearLayout
                 android:layout_width="444dp"
                 android:layout_height="match_parent"
@@ -276,18 +278,30 @@
                     android:id="@+id/mas"
                     android:layout_width="104dp"
                     android:layout_height="match_parent"
-                    android:background="#656161"
+                    android:background="#515151"
                     android:text="+"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
 
             </LinearLayout>
+
+            //Fila seis
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="horizontal"
                 android:weightSum="4">
+
+                <Button
+                    android:id="@+id/masmen"
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:background="#656161"
+                    android:text="+-"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/punto"
@@ -299,13 +313,13 @@
                     android:textSize="20dp"></Button>
 
                 <Button
+                    android:id="@+id/cero"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#656161"
                     android:text="0"
                     android:textColor="#FFFFFF"
-                    android:background="#656161"
-                    android:id="@+id/cero"
-                    android:layout_weight="3"
                     android:textSize="20dp"></Button>
 
                 <Button
@@ -313,7 +327,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#4a4f4a"
                     android:text="="
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
