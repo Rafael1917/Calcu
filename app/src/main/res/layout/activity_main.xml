@@ -22,7 +22,7 @@
                 android:layout_gravity="center"
                 android:textSize="30dp"
                 android:id="@+id/pantalla"
-                android:background="#3692DC">
+                android:background="#FFFFFF">
             </TextView>
         </LinearLayout>
         <LinearLayout
