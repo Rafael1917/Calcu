@@ -22,7 +22,7 @@
                 android:layout_gravity="center"
                 android:textSize="30dp"
                 android:id="@+id/pantalla"
-                android:background="#FFFFFF">
+                android:background="@color/colorPantalla">
             </TextView>
         </LinearLayout>
 
@@ -45,7 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:text="CE"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -55,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:text="C"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -65,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:gravity="center"
                     android:text="←"
                     android:textColor="#FFFFFF"
@@ -76,7 +76,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:text="/"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -95,7 +95,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="7"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -105,7 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="8"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -115,7 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="9"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -125,7 +125,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:text="*"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -144,7 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="4"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -154,7 +154,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="5"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -164,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="6"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -174,7 +174,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:text="-"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -193,7 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="1"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -203,7 +203,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="2"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -213,7 +213,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="3"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -222,7 +222,7 @@
                     android:id="@+id/mas"
                     android:layout_width="104dp"
                     android:layout_height="match_parent"
-                    android:background="#656161"
+                    android:background="@color/colorBotones1"
                     android:text="+"
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -239,7 +239,7 @@
                     android:id="@+id/punto"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:text="."
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
@@ -249,17 +249,17 @@
                     android:layout_height="match_parent"
                     android:text="0"
                     android:textColor="#FFFFFF"
-                    android:background="#656161"
+                    android:background="@color/colorBotones2"
                     android:id="@+id/cero"
                     android:layout_weight="3"
                     android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/igual"
-                    android:layout_width="wrap_content"
+                    android:layout_width="58dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#656161"
+                    android:background="#@color/colorBoton3"
                     android:text="="
                     android:textColor="#FFFFFF"
                     android:textSize="20dp"></Button>
