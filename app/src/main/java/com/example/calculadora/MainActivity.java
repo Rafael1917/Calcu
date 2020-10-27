@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             btnsum, btnres, btnmul, btndiv,
             btnig,
             //Funciones
-            btnclr,btnborr,btnce;
+            btnclr,btnborr,btnce,btncred;
     TextView label;
     String res, n1, n2, ide;
     Double doble;
@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
 
         btnig = findViewById(R.id.igual);
         btnig.setOnClickListener(Operaciones);
+
+        btncred = findViewById(R.id.masmen);
+        btncred.setOnClickListener(funciones);
         //-------------------------TERMINA FUNCIONES-------------------------------------
 
         //--------------------------INICIA NUMEROS----------------------------------------
@@ -152,12 +155,15 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.clear:
                     label.setText("");
                     break;
-                //Checar bien como hacer para borrar solo 1 numero
                 case R.id.borr:
                     label.setText("");
                     break;
                 case R.id.ce:
                     label.setText("");
+                    break;
+                case R.id.masmen:
+                    label.setText("");
+                    label.setText("Rafael Saucedo Blas 4A 26/10/2020");
                     break;
             };
         }
